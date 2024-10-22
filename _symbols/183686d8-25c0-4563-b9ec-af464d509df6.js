@@ -2869,9 +2869,9 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "icon svelte-1ibv8i4");
+			attr(span, "class", "icon svelte-1m7bt5o");
 			attr(a, "href", a_href_value = /*link*/ ctx[11].url);
-			attr(a, "class", "svelte-1ibv8i4");
+			attr(a, "class", "svelte-1m7bt5o");
 		},
 		m(target, anchor) {
 			insert_hydration(target, a, anchor);
@@ -2947,11 +2947,11 @@ function create_else_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "svelte-1ibv8i4");
+			attr(span, "class", "svelte-1m7bt5o");
 			attr(input, "type", input_type_value = /*input*/ ctx[8].type || "text");
 			attr(input, "placeholder", input_placeholder_value = /*input*/ ctx[8].placeholder);
-			attr(input, "class", "svelte-1ibv8i4");
-			attr(label, "class", "svelte-1ibv8i4");
+			attr(input, "class", "svelte-1m7bt5o");
+			attr(label, "class", "svelte-1m7bt5o");
 		},
 		m(target, anchor) {
 			insert_hydration(target, label, anchor);
@@ -3009,9 +3009,9 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "svelte-1ibv8i4");
-			attr(textarea, "class", "svelte-1ibv8i4");
-			attr(label, "class", "svelte-1ibv8i4");
+			attr(span, "class", "svelte-1m7bt5o");
+			attr(textarea, "class", "svelte-1m7bt5o");
+			attr(label, "class", "svelte-1m7bt5o");
 		},
 		m(target, anchor) {
 			insert_hydration(target, label, anchor);
@@ -3184,17 +3184,17 @@ function create_fragment(ctx) {
 		},
 		h() {
 			attr(h2, "class", "heading");
-			attr(div0, "class", "body svelte-1ibv8i4");
-			attr(div1, "class", "social-links svelte-1ibv8i4");
-			attr(div2, "class", "content svelte-1ibv8i4");
+			attr(div0, "class", "body svelte-1m7bt5o");
+			attr(div1, "class", "social-links svelte-1m7bt5o");
+			attr(div2, "class", "content svelte-1m7bt5o");
 			attr(input, "type", "hidden");
 			attr(input, "name", "access_key");
 			input.value = "b689fbdc-c3f8-4233-a5df-3757549b4b1e";
-			attr(input, "class", "svelte-1ibv8i4");
-			attr(button, "class", "button svelte-1ibv8i4");
+			attr(input, "class", "svelte-1m7bt5o");
+			attr(button, "class", "button svelte-1m7bt5o");
 			attr(button, "type", "submit");
-			attr(form, "class", "svelte-1ibv8i4");
-			attr(section, "class", "section-container svelte-1ibv8i4");
+			attr(form, "class", "svelte-1m7bt5o");
+			attr(section, "class", "section-container svelte-1m7bt5o");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
