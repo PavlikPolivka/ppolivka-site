@@ -46,6 +46,9 @@
       <style>.section-container.svelte-bzs4m9.svelte-bzs4m9{display:flex;justify-content:space-between;align-items:center;padding-top:1rem;padding-bottom:1rem}.logo.svelte-bzs4m9.svelte-bzs4m9{font-size:1.5rem;font-weight:600;line-height:1.2;display:flex;gap:10px}.logo.svelte-bzs4m9 img.svelte-bzs4m9{width:30px}.desktop-nav.svelte-bzs4m9.svelte-bzs4m9{display:none;align-items:center;justify-content:space-between;width:100%}.desktop-nav.svelte-bzs4m9 nav.svelte-bzs4m9{display:flex;gap:2rem}.desktop-nav.svelte-bzs4m9 nav a.link.svelte-bzs4m9{border-color:transparent;transition:border-color 0.1s;font-size:0.95rem}.desktop-nav.svelte-bzs4m9 nav a.link.svelte-bzs4m9:hover{border-color:initial}@media(min-width: 800px){.desktop-nav.svelte-bzs4m9.svelte-bzs4m9{display:flex
 }}.mobile-nav.svelte-bzs4m9.svelte-bzs4m9{display:flex;align-items:center;justify-content:space-between;width:100%;font-weight:500}@media(min-width: 800px){.mobile-nav.svelte-bzs4m9.svelte-bzs4m9{display:none
 }}#popup.svelte-bzs4m9.svelte-bzs4m9{font-size:1.25rem;display:grid;gap:1rem;position:absolute;text-align:center;background-color:var(--background-color, white);box-shadow:var(--box-shadow, 0px 4px 30px rgba(0, 0, 0, 0.1));border-radius:var(--border-radius);inset:0.5rem;bottom:initial;padding:2rem;z-index:1}#popup.svelte-bzs4m9 button#close.svelte-bzs4m9{position:absolute;right:1rem;top:1rem}
+section.svelte-y854m2.svelte-y854m2{display:grid;place-items:center;max-width:var(--inner-max-width, 900px);padding-bottom:3rem}.heading.svelte-y854m2.svelte-y854m2{text-align:center;text-wrap:balance;margin-bottom:3rem}figure.svelte-y854m2.svelte-y854m2{display:grid;gap:0.25rem;margin-bottom:2.5rem}figure.svelte-y854m2 img.svelte-y854m2{width:100px;height:100px;-o-object-fit:cover;object-fit:cover;border-radius:100%}figure.svelte-y854m2 figcaption.svelte-y854m2{color:var(--color-shade, #2d3339);font-size:0.875rem;font-weight:400;text-align:center}.content.svelte-y854m2.svelte-y854m2{line-height:1.5;font-family:var(--body-font);color:#2d3339}.content.svelte-y854m2 p{margin-bottom:1rem}
+.section-container.svelte-15f55d3.svelte-15f55d3{display:grid;gap:2rem}@media(min-width: 800px){.section-container.svelte-15f55d3.svelte-15f55d3{grid-template-columns:3fr 2fr;gap:14rem
+}}.content.svelte-15f55d3.svelte-15f55d3{display:grid;place-content:flex-start;gap:1rem}.content.svelte-15f55d3 .body.svelte-15f55d3{margin-bottom:.5rem}.content.svelte-15f55d3 .social-links.svelte-15f55d3{display:grid;gap:0.75rem}.content.svelte-15f55d3 .social-links a.svelte-15f55d3{display:flex;align-items:center;gap:0.75rem}.content.svelte-15f55d3 .social-links a .icon.svelte-15f55d3{font-size:1.75rem;color:var(--color-accent, rebeccapurple);transition:var(--transition, 0.1s transform)}.content.svelte-15f55d3 .social-links a:hover .icon.svelte-15f55d3{transform:scale(1.1)}form.svelte-15f55d3.svelte-15f55d3{display:grid;gap:1rem;padding:2rem;border:1px solid var(--border-color, #eee);border-radius:var(--border-radius)}form.svelte-15f55d3 label.svelte-15f55d3{display:grid;gap:0.25rem}form.svelte-15f55d3 label span.svelte-15f55d3{font-size:0.75rem;font-weight:500}form.svelte-15f55d3 label input.svelte-15f55d3,form.svelte-15f55d3 label textarea.svelte-15f55d3{font-size:1rem;padding:0.5rem;outline-color:transparent;transition:var(--transition, 0.1s outline-color);border:1.5px solid var(--border-color, #eee);border-radius:4px}form.svelte-15f55d3 label input.svelte-15f55d3:focus,form.svelte-15f55d3 label textarea.svelte-15f55d3:focus{outline-color:var(--color-accent, rebeccapurple)}form.svelte-15f55d3 .button.svelte-15f55d3{margin-top:1rem}
 .section-container.svelte-1bd2i8w.svelte-1bd2i8w{display:flex;justify-content:space-between;flex-direction:column;align-items:center;gap:1rem;padding-top:1rem;padding-bottom:1rem}@media(min-width: 600px){.section-container.svelte-1bd2i8w.svelte-1bd2i8w{flex-direction:row
 }}nav.svelte-1bd2i8w.svelte-1bd2i8w{display:flex;gap:1rem;font-size:.875rem}nav.svelte-1bd2i8w .link.svelte-1bd2i8w{border-color:transparent}nav.svelte-1bd2i8w .link.svelte-1bd2i8w:hover{border-color:initial}.social-links.svelte-1bd2i8w.svelte-1bd2i8w{display:flex;gap:1.5rem;font-size:1.5rem}.social-links.svelte-1bd2i8w a.svelte-1bd2i8w{color:black;transition:var(--transition, 0.1s transform)}.social-links.svelte-1bd2i8w a.svelte-1bd2i8w:hover{transform:scale(1.1)}</style>
     </head>
@@ -53,11 +56,30 @@
        
 <div class="section" id="section-91aa3030"><header class="section-container svelte-bzs4m9"><div class="desktop-nav svelte-bzs4m9"><a href="/" class="logo svelte-bzs4m9"><img src="https://dlgwtrokbzfgwvhxumhx.supabase.co/storage/v1/object/public/images/bb2700c1-c8e3-4ba5-b81a-92e5bee7b62f/17296231882664c5e85c4-0a35-40c2-bc28-caa5c9c35b6d.png" alt="" class="svelte-bzs4m9">
         <span>Pavel Polívka</span></a>
-    <nav class="svelte-bzs4m9"><a class="link svelte-bzs4m9" href="/">Domů</a><a class="link svelte-bzs4m9" href="/kontakt">Kontaktuj mě</a></nav></div>
+    <nav class="svelte-bzs4m9"><a class="link svelte-bzs4m9" href="/">Domů</a><a class="link svelte-bzs4m9" href="">Blog</a><a class="link svelte-bzs4m9" href="/prednaky">Přednášky</a></nav></div>
   <div class="mobile-nav svelte-bzs4m9"><a href="/" class="logo svelte-bzs4m9"><img src="https://dlgwtrokbzfgwvhxumhx.supabase.co/storage/v1/object/public/images/bb2700c1-c8e3-4ba5-b81a-92e5bee7b62f/17296231882664c5e85c4-0a35-40c2-bc28-caa5c9c35b6d.png" alt="" class="svelte-bzs4m9">
         <span>Pavel Polívka</span></a>
     <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START --><rect width="18" height="2" x="3" y="11" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" fill="currentColor" rx=".95" ry=".95"/><!-- HTML_TAG_END --></svg></button>
     </div></header></div> 
+<div class="section" id="section-390b6e24"><section class="section-container svelte-y854m2"><h1 class="heading svelte-y854m2">I'm a developer, designer, founder and everything in-between.</h1>
+  <figure class="svelte-y854m2"><img src="https://dlgwtrokbzfgwvhxumhx.supabase.co/storage/v1/object/public/images/bb2700c1-c8e3-4ba5-b81a-92e5bee7b62f/17296282789653875a874-87ab-40b3-807e-2b8f06afd7da.jpg" alt="Pavel" class="svelte-y854m2">
+    <figcaption class="svelte-y854m2">Pavel</figcaption></figure>
+  <div class="content svelte-y854m2"><!-- HTML_TAG_START --><p>Jsem Java vývojář, co si už prošel vším možným – od nekonečných debugovacích maratonů po chvíle, kdy stačilo jen restartovat počítač (ale samozřejmě až po 3 hodinách hledání problému). Miluju kódování a hlavně ten moment, kdy všechno, co už nemělo fungovat, začne zázračně šlapat.</p>
+<p>Rád řeším problémy – a ne, nemyslím jen ty v kódu. Když někdo v týmu tápe, jsem první, kdo přijde s rychlou radou nebo řešením, které vlastně nikdo nečekal. A když už se problém podaří rozseknout, občas o tom napíšu, protože proč ne?</p>
+<p>Věci jako mentoring nebo pomoc kolegům beru jako nedílnou součást své práce. A když někomu můžu pomoct k tomu, aby měl taky radost z kódu, jsem spokojený. Mám rád výzvy, takže pokud máš problém, jsem tvůj člověk.</p><!-- HTML_TAG_END --></div></section></div> 
+<div class="section" id="section-33956176"><section class="section-container svelte-15f55d3"><div class="content svelte-15f55d3"><h2 class="heading">Contact Us</h2>
+    <div class="body svelte-15f55d3"><!-- HTML_TAG_START -->Whether you have questions, feedback, or just want to say hello, we're always ready to hear from you. Please fill out the contact form, and we'll do our best to respond within 24-48 hours.<!-- HTML_TAG_END --></div>
+    <div class="social-links svelte-15f55d3"><a href="/" class="svelte-15f55d3"><span class="icon svelte-15f55d3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START --><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/><!-- HTML_TAG_END --></svg></span>
+          Github
+        </a><a href="/" class="svelte-15f55d3"><span class="icon svelte-15f55d3"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--mdi"><!-- HTML_TAG_START --><path fill="currentColor" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02"/><!-- HTML_TAG_END --></svg></span>
+          Facebook
+        </a></div></div>
+  <form class="svelte-15f55d3"><label class="svelte-15f55d3"><span class="svelte-15f55d3">Name</span>
+          <input type="text" placeholder="John Doe" class="svelte-15f55d3">
+        </label><label class="svelte-15f55d3"><span class="svelte-15f55d3">Email</span>
+          <input type="email" placeholder="johndoe@johndoe.com" class="svelte-15f55d3">
+        </label>
+    <button class="button svelte-15f55d3" type="submit">Submit</button></form></section></div> 
 <div class="section" id="section-af3ae2af"><footer class="section-container svelte-1bd2i8w"><nav class="svelte-1bd2i8w"><a class="link svelte-1bd2i8w" href="/">Copyright 2024</a></nav>
   
   <div class="social-links svelte-1bd2i8w"><a href="https://x.com/pavel_polivka" aria-label="X" class="svelte-1bd2i8w"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--ri"><!-- HTML_TAG_START --><path fill="currentColor" d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z"/><!-- HTML_TAG_END --></svg>
@@ -71,7 +93,20 @@
             new App({
               target: document.querySelector('#section-91aa3030'),
               hydrate: true,
-              props: {"logo":{"title":"Pavel Polívka","image":{"url":"https://dlgwtrokbzfgwvhxumhx.supabase.co/storage/v1/object/public/images/bb2700c1-c8e3-4ba5-b81a-92e5bee7b62f/17296231882664c5e85c4-0a35-40c2-bc28-caa5c9c35b6d.png","alt":""}},"site_nav":[{"link":{"url":"/","label":"Domů","active":false}},{"link":{"url":"/kontakt","label":"Kontaktuj mě"}}]}
+              props: {"logo":{"image":{"alt":"","url":"https://dlgwtrokbzfgwvhxumhx.supabase.co/storage/v1/object/public/images/bb2700c1-c8e3-4ba5-b81a-92e5bee7b62f/17296231882664c5e85c4-0a35-40c2-bc28-caa5c9c35b6d.png"},"title":"Pavel Polívka"},"site_nav":[{"link":{"url":"/","label":"Domů","active":false}},{"link":{"label":"Blog","url":"","active":false}},{"link":{"url":"/prednaky","label":"Přednášky"}}]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    
+
+      import('/_symbols/183686d8-25c0-4563-b9ec-af464d509df6.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-33956176'),
+              hydrate: true,
+              props: {"heading":"Contact Us","subheading":"Whether you have questions, feedback, or just want to say hello, we're always ready to hear from you. Please fill out the contact form, and we'll do our best to respond within 24-48 hours.","social":[{"icon":"mdi:github","link":{"url":"/","label":"Github"}},{"icon":"mdi:facebook","link":{"url":"/","label":"Facebook"}}],"inputs":[{"type":"text","label":"Name","placeholder":"John Doe"},{"type":"email","label":"Email","placeholder":"johndoe@johndoe.com"}],"submit_label":"Submit"}
             })
           
       })
@@ -84,7 +119,7 @@
             new App({
               target: document.querySelector('#section-af3ae2af'),
               hydrate: true,
-              props: {"nav":[{"link":{"url":"/","label":"Copyright 2024"}}],"social":[{"link":{"url":"https://x.com/pavel_polivka","label":"X"},"icon":"ri:twitter-x-line"},{"link":{"label":"Facebook","url":"https://www.facebook.com/pavel.polivka/","active":false},"icon":"mingcute:facebook-fill"}]}
+              props: {"nav":[{"link":{"url":"/","label":"Copyright 2024"}}],"social":[{"icon":"ri:twitter-x-line","link":{"url":"https://x.com/pavel_polivka","label":"X"}},{"icon":"mingcute:facebook-fill","link":{"url":"https://www.facebook.com/pavel.polivka/","label":"Facebook","active":false}}]}
             })
           
       })
