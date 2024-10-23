@@ -2814,7 +2814,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (87:6) {#each social as { link, icon }}
+// (92:6) {#each social as { link, icon }}
 function create_each_block(ctx) {
 	let a;
 	let span;
@@ -2851,9 +2851,9 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "icon svelte-1weqv3q");
+			attr(span, "class", "icon svelte-z784ms");
 			attr(a, "href", a_href_value = /*link*/ ctx[6].url);
-			attr(a, "class", "svelte-1weqv3q");
+			attr(a, "class", "svelte-z784ms");
 		},
 		m(target, anchor) {
 			insert_hydration(target, a, anchor);
@@ -2955,11 +2955,11 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-1weqv3q");
-			attr(div0, "class", "body svelte-1weqv3q");
-			attr(div1, "class", "social-links svelte-1weqv3q");
-			attr(div2, "class", "content svelte-1weqv3q");
-			attr(section, "class", "section-container");
+			attr(h2, "class", "heading svelte-z784ms");
+			attr(div0, "class", "body svelte-z784ms");
+			attr(div1, "class", "social-links svelte-z784ms");
+			attr(div2, "class", "content svelte-z784ms");
+			attr(section, "class", "section-container svelte-z784ms");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
